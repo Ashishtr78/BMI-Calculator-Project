@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+  box-sizing: boder-box;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+section {
+  width: 100vw;
+  height: 12vh;
+  background: #eeeeee;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+section .nav_contain {
+  display: flex;
+  gap: 23px;
+}
+
+section .nav_contain .nav_contain1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  width: 52px;
+  height: 22px;
+  background: #d4d4d4;
+  border-radius: 10%;
+}
+
+section .nav_contain .nav_contain2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  width: 122px;
+  height: 22px;
+  background: #d4d4d4;
+  border-radius: 10%;
+}
+main {
+  background: #797978;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+main .main_contain {
+  width: 333px;
+  height: 80vh;
+  position: relative;
+  border-radius: 12px;
+  background: #656161;
+  padding-left: 42px;
+  gap: 55px;
+}
+main .main_contain .h2 {
+  align-items: center;
+  text-align: center;
+  margin-top: 12px;
+  padding: 12px;
+}
+main .main_contain .button {
+  margin-top: 12px;
+
+  align-items: center;
+  text-align: center;
+}
+main .main_contain .button .summit {
+  padding: 2px 4px 3px;
+  font-weight: 688;
+  font-size: 18px;
+}
+
+main .main_contain .lower_part {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: center;
+  justify-content: center;
+}
+main .main_contain #show {
+  position: absolute;
+  font-size: 25px;
+   padding-top: 12px;
+  text-align: start;
+  width: auto;
+  height: 24px;
+  margin-top: 23px;
+  /* margin-top: 30px;
+  margin-left: 10px; */
+  color: black;
+  background-color: red;
+
+  border-radius: 10px;
+}
